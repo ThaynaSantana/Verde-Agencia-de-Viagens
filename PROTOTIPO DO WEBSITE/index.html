@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./logo.svg" type="image/x-icon">
+    <title>Agencia Verde</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-brand">
+            <h1 class="text-success">
+                <i class="fa-solid fa-plane-departure logo" style="color: #6bdb0f"></i>
+                Verde
+            </h1>
+            <a href="./index.html">Home</a>
+            <a href="./pages/destiny.html">Destino</a>
+            <a href="./pages/promotions.html">Promoções</a>
+            <a href="./pages/contact.html">Contato</a>
+        </nav>
+    </header>
+    <hr />
+    <main>
+        <section>
+            <div class="header-plane d-flex flex-row gap-3">
+                <h1>Passagens aéreas:</h1>
+                <button class="btn btn-outline-warning">Ida e Volta</button>
+                <button class="btn btn-outline-success">Só Ida</button>
+                <button class="btn btn-outline-warning">Multi destino</button>
+                <div class="divisor">
+
+                </div>
+                <button class="btn btn-outline-primary">
+                    <b class="text-danger bg-dark">! DESCONTO !</b> Voo + hospedagem
+                </button>
+            </div>
+            <div class="main-plane">
+                <div class="box">
+                    <label>Origem</label>
+                    <select>
+                        <option>Salvador/BA</option>
+                        <option>São Paulo/SP</option>
+                        <option>Rio de Janeiro/RJ</option>
+                        <option>Belém/PA</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <label>Destino</label>
+                    <select>
+                        <option>Rio de Janeiro/RJ</option>
+                        <option>Salvador/BA</option>
+                        <option>São Paulo/SP</option>
+                        <option>Belém/PA</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <label>Data da Viagem</label>
+                    <input type="date" />
+                </div>
+                <div class="box">
+                    <div class="dropdown">
+                        <button class="btn btn-outline-primary dropdown-toggle" id="dropdownClass"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Quantidade | Classe
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownClass">
+                            <li class="dropdown-item">Passageiros <input placeholder="0-5" type="number"></li>
+                            <li class="dropdown-item">
+                                Classe
+                                <select>
+                                    <option>Econômica</option>
+                                    <option>Premium Econômica</option>
+                                    <option>Executiva</option>
+                                    <option>Primeira Classe</option>
+                                </select>
+                            </li>
+                            <button class="btn text-white bg-success dropdown-item">Aplicar</button>
+                        </ul>
+                    </div>
+                </div>
+                <button class="btn btn-lg btn-warning">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    Buscar
+                </button>
+        </section>
+        <div class="container gallery">
+            <h2>Embarque nessa viagem🌴</h2>´
+            <div class="album">
+                <img src="https://images.pexels.com/photos/2533092/pexels-photo-2533092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img src="https://images.pexels.com/photos/4356144/pexels-photo-4356144.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img src="https://images.pexels.com/photos/4254553/pexels-photo-4254553.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img src="https://images.pexels.com/photos/4353632/pexels-photo-4353632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img src="https://images.pexels.com/photos/883758/pexels-photo-883758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img src="https://images.pexels.com/photos/2450296/pexels-photo-2450296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img src="https://images.pexels.com/photos/3830880/pexels-photo-3830880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img src="https://images.pexels.com/photos/2868242/pexels-photo-2868242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
