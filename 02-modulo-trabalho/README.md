@@ -1,3 +1,5 @@
+![image](https://github.com/ThaynaSantana/Verde-Agencia-de-Viagens/assets/88935936/91551266-4356-4415-925e-910c7e5eb0ff)
+
 # Verde-Agencia-de-Viagens
 Utilizando HTML / CSS / BOOTSTRAP, para criação do website que é um prototipo de uma agencia de viagens.<br>
 Acesse aqui: www.verde.com.br <br>
