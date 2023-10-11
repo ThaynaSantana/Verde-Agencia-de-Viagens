@@ -1,0 +1,257 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: 0 0 8px 0;
+    align-items: center;
+}
+
+nav {
+    border: 0.2px solid #066406a5;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 60rem;
+    max-height: 4rem;
+    padding: 0 2rem;
+    background-color: #F7F7F7;
+    flex-direction: row;
+}
+
+nav a {
+    color: #066406a5;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+nav a:hover {
+    color: #066406a5;
+}
+
+.text {
+    color:#79787883;
+    font-weight: 500;
+}
+
+.text:hover{
+    color:#FFC107;
+    transition: 1s;
+}
+
+#logo {
+    max-height: 10rem;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+section {
+    margin: 2rem 4rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(74, 204, 76);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.479);
+    border-radius: 2rem;
+    gap: 1rem;
+}
+
+section .header-plane{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section .main-plane{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.divisor {
+    width: 0.12rem;
+    background-color: grey;
+}
+
+.main-plane .box {
+    background-color: #fafafa;
+    border-radius: 2rem;
+    padding: 0.8rem;
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+}
+
+input,select {
+    border: none;
+}
+
+input[type="number"]{
+    width: 3rem;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 80rem;
+    gap: 0.5rem 1rem;
+}
+
+.album img {
+    width: 30rem;
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+.promotions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #b5b5b5;
+}
+
+article {
+    width: 34rem;
+    height: 20rem;
+    padding: 1rem;
+    border-radius: 1rem 3rem 3rem 1rem;
+    background-color: #f0f0f0;
+}
+
+article h1 {
+    font-size: 2rem;
+}
+
+article h3 {
+    font-size: 1.2rem;
+}
+
+article .promotion {
+    width: 20rem;
+    padding: 1rem;
+}
+
+#categories {
+    background-color: #F2F4F5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+#categories article {
+    background-color: rgba(255, 255, 255, 0.667);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 10rem;
+    width: 30rem;
+    border-radius: 1rem;
+}
+
+#support-email {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 4rem;
+}
+
+#support-email span {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+}
+
+.destiny{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.destiny aside{
+    display: flex;
+    width: 22rem;
+    height: 100%;
+    background-color: #f0f0f0;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.destiny main .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.destinies {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+}
+
+.destiny main .destinies .box {
+    background-color: rgb(221, 221, 221);
+    border-radius: 2rem;
+    padding: 1.4rem;
+    max-width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.box img {
+    height: 18rem;
+    width: 100%;
+    border-radius: 1rem 1rem 0.5rem 0.5rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu .hours {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

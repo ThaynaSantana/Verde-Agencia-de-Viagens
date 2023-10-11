@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="shortcut icon" href="../logo.svg" type="image/x-icon" />
+    <title>Agencia Verde</title>
+  </head>
+  <body>
+    <header>
+      <img src="src/logo.png" id="logo">
+      <nav>
+          <a href="../index.html"><i class="fa-solid fa-house-user"></i> <span class="text">Home</span></a>
+          <a href="./destiny.html"><i class="fa-solid fa-location-dot"></i> <span class="text">Destino</span></a>
+          <a href="./promotions.html"><i class="fa-solid fa-percent"></i> <span class="text">Promoções</span></a>
+          <a href="./contact.html"><i class="fa-solid fa-id-badge"></i> <span class="text">Contato</span></a>
+      </nav>
+  </header>
+    <div class="destiny">
+      <aside>
+        <div class="menu">
+          <h4>Estadia</h4>
+          <div><input type="checkbox"> <label>Todos as estadias</label> <b>a partir R$250</b></div>
+          <div><input type="checkbox"> <label>De 1 a 5 dias</label> <b>a partir R$250</b></div>
+          <div><input type="checkbox"> <label>De 6 a 10 dias</label> <b>a partir R$300</b></div>
+          <div><input type="checkbox"> <label>De 11 a 15 dias</label> <b>a partir R$400</b></div>
+          <div><input type="checkbox"> <label>+ de 15 dias</label> <b>a partir R$500</b></div>
+        </div>
+        <div class="menu">
+          <h4>Paradas</h4>
+          <div><input type="checkbox"> <label>Todas as paradas</label> <b>até 10</b></div>
+          <div><input type="checkbox"> <label>Direto</label> <b>0</b></div>
+          <div><input type="checkbox"> <label>1 parada</label> <b>1</b></div>
+        </div>
+        <div class="menu">
+          <h4>Preço</h4>
+          <label>Moeda</label>
+          <input type="range" class="form-range" min="0" max="5" step="0.5">
+          <label>De R$ 0,00 Até R$3.000,00</label>
+        </div>
+        <div class="menu">
+          <h4>Horário</h4>
+          <label>Ida - Voo para São Paulo</label>
+          <input type="range" class="form-range" min="0" max="5" step="0.5">
+          <div class="hours"><label>02:40</label> <label>22:40</label></div>
+          <hr>
+          <label>Volta - Voo para Salvador</label>
+          <input type="range" class="form-range" min="0" max="5" step="0.5">
+          <div class="hours"><label>06:00</label> <label>23:40</label></div>
+        </div>
+        <div class="menu">
+          <h4>Ordernar</h4>
+          <select>
+            <option>Preço</option>
+            <option>Mais conveniente</option>
+            <option>Duração</option>
+            <option>Paradas</option>
+          </select>
+        </div>
+      </aside>
+      <main>
+        <div class="header">
+          <h1>Encontre seu proximo destino! <i class="fa-solid fa-map-pin" style="color: #ff1f1f;"></i></h1>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Escreva aqui nome das cidades, Rio de Janeiro, Salvador..." aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-warning" type="button" id="button-addon2">Buscar <i class="fa-solid fa-magnifying-glass-location"></i></button>
+          </div>
+        </div>
+        <div class="destinies">
+          <div class="box">
+            <img src="https://images.pexels.com/photos/1060803/pexels-photo-1060803.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            <h2>Voos para Buenos Aires</h2>
+            <p>Saindo de São Paulo</p>
+            <p>Por AAAA</p>
+            <p>Preço de ida e volta</p>
+            <h2>R$1.700</h2>
+            <button class="btn btn-success btn-lg">Comprar</button>
+          </div>
+          <div class="box">
+            <img src="https://images.pexels.com/photos/3875821/pexels-photo-3875821.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            <h2>Voos para Nova Iorque</h2>
+            <p>Saindo de Rio de Janeiro</p>
+            <p>Por CACAU</p>
+            <p>Preço de ida e volta</p>
+            <h2>R$2.500</h2>
+            <button class="btn btn-success btn-lg">Comprar</button>
+          </div>
+          <div class="box">
+            <img src="https://images.pexels.com/photos/12989844/pexels-photo-12989844.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            <h2>Voos para Salvador</h2>
+            <p>Saindo de São Paulo</p>
+            <p>Por POLUIÇAO Ltda</p>
+            <p>Preço de ida e volta</p>
+            <h2>R$3.000</h2>
+            <button class="btn btn-success btn-lg">Comprar</button>
+          </div>
+          <div class="box">
+            <img src="https://images.pexels.com/photos/1013427/pexels-photo-1013427.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            <h2>Voos para Portugal</h2>
+            <p>Saindo de Guarulhos</p>
+            <p>Por Portugues Viagens Ouro Ltda</p>
+            <p>Preço de ida e volta</p>
+            <h2>R$1.200</h2>
+            <button class="btn btn-success btn-lg">Comprar</button>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
