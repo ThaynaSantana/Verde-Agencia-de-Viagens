@@ -1,4 +1,4 @@
-package com.example.verde.model;
+package entity;
 
 public class Passagem {
     private int cliente, voo;

@@ -1,17 +1,32 @@
-package com.example.verde.model;
-
 public class Usuario {
+    private int id_usuario;
     private String cargo;
     private String nome;
     private String senha;
     private String sql;
 
-    public Usuario(String nome, String senha, String cargo){
+    public Usuario(int id_usuario, String cargo, String nome, String senha){
+        this.id_usuario = id_usuario;
+        this.cargo = cargo;
         this.nome = nome;
         this.senha =  senha;
-        this.cargo = cargo;
     }
 
+    public void Add(){
+        sql = 'insert into agenciadb ';
+    }
+
+    public void Remove(){
+
+    }
+
+    public int getId_usuario() {
+        return id_usuario;
+    }
+
+    public void setId_usuario(int id_usuario) {
+        this.id_usuario = id_usuario;
+    }
 
     public String getCargo() {
         return cargo;

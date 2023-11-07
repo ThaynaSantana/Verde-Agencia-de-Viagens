@@ -1,4 +1,4 @@
-package com.example.verde.model;
+package entity;
 
 public class Usuario {
     private String cargo;

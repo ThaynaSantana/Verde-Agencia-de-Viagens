@@ -1,20 +1,24 @@
-package com.example.verde.model;
-
 public class Passagem {
-    private int cliente, voo;
-    private String dataVenda, horaVenda, codigo;
-    long preco;
+    private int id_passagem;
+    private String preco, codigo, dataVenda, horaVenda;
+    private Cliente cliente;
+    private Voo voo;
 
-    public Passagem(int cliente, int voo, String dataVenda, String horaVenda, String codigo, long preco) {
+    public Passagem(int id_passagem, String preco, String codigo, Cliente cliente, Voo voo, String dataVenda, String horaVenda){
+        this.id_passagem = id_passagem;
+        this.preco = preco;
+        this.codigo = codigo;
         this.cliente = cliente;
         this.voo = voo;
         this.dataVenda = dataVenda;
         this.horaVenda = horaVenda;
-        this.codigo = codigo;
-        this.preco = preco;
     }
 
-    public long getPreco() {
+    public int getId_passagem() {
+        return id_passagem;
+    }
+
+    public String getPreco() {
         return preco;
     }
 
@@ -30,16 +34,19 @@ public class Passagem {
         return horaVenda;
     }
 
-    public int getCliente() {
+    public Cliente getCliente() {
         return cliente;
     }
 
-    public int getVoo() {
+    public Voo getVoo() {
         return voo;
     }
 
+    public void setId_passagem(int id_passagem) {
+        this.id_passagem = id_passagem;
+    }
 
-    public void setPreco(long preco) {
+    public void setPreco(String preco) {
         this.preco = preco;
     }
 
@@ -55,11 +62,11 @@ public class Passagem {
         this.horaVenda = horaVenda;
     }
 
-    public void setCliente(int cliente) {
+    public void setCliente(Cliente cliente) {
         this.cliente = cliente;
     }
 
-    public void setVoo(int voo) {
+    public void setVoo(Voo voo) {
         this.voo = voo;
     }
 }
